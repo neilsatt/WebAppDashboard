@@ -5,129 +5,59 @@
   Base Element Styles
 ==================================== */
 * {
-  box-sizing: border-box; }
+  box-sizing: border-box; 
+}
 
 body {
   font-family: 'Varela Round', sans-serif;
   line-height: 1.6;
-  color: #3a3a3a; }
-
-p {
-  font-size: .95em;
-  margin-bottom: 1.8em; }
-
-h2,
-h3 {
-  margin-top: 0; }
-
-a {
-  text-decoration: none; }
-
-img {
-  margin: 0 auto;
-  display: block; }
-
-#title {
-  color: black;
-  font-weight: bolder;
-  text-transform: uppercase; }
-
-ul {
-  list-style: none; }
-
-.contact {
-  font-weight: bolder; }
-
-#contact-content {
-  max-width: 75%;
-  margin: auto; }
-
-/* ================================= 
-  Base Layout Styles
-==================================== */
-/* Mixins */
-/* Main CSS ----- */
-.profile-img {
-  max-width: 65%; }
-
-.port-img {
-  max-width: 95%;
-  margin-top: 15px;
-  margin-bottom: 15px; }
-
-h4 {
-  text-transform: uppercase; }
-
-/* ---- Navigation ---- */
-.name {
-  font-size: 1.65em; }
-  .name a {
-    display: block; }
-
-.main-nav li {
-  background: #E8E8E8;
-  margin-top: 6px;
-  margin-bottom: 6px;
-  font-weight: 900; }
-
-/* Main Nav li updated with nesting */
-.main-nav li a {
-  padding: 10px 15px;
-  display: block;
-  font-size: 0.95em;
-  font-weight: bold;
-  color: black; 
- 
-
+  color: #3a3a3a; 
 }
-  .main-nav li a:hover {
-    background-color: mediumpurple;
-    color: #FFFFFF; }
 
-/* ---- Layout Containers ---- */
 .main-header {
- height: 5em;  
-  background-color: mediumpurple;
+  height: 5em;  
 }
 
-/*CREATE GUTTERS */
-.col {
-  padding-right: 1em;
-  padding-left: 1em; }
+.main-nav {
+    float: right;
+    margin-top: 25px;
+    margin-right: 50px; 
+    color: white;
+}
 
-#left-footer-link {
-  float: left;
-  font-weight: bold;
-  margin: 10px;
-  font-size: 1.0em; }
+.name {
+    color: white;
+}
 
-#right-footer-link {
-  float: right;
-  font-size: .90em;
-  font-weight: bold;
-  margin: 10px;
-  text-transform: uppercase; }
+.main-header {
+    background-color: #716ecc; 
+}
 
-#right-footer-link a:visited {
-  color: black; }
 
-#right-footer-link a:hover {
-  color: #093a58; }
+.left-column {
+  position:fixed; /* <-- fixes the left panel to prevent from scrolling */
+  top:0;
+  left:0;
+  width:100px;
+  height:800px;
+  background: #44427a; 
+  top: 80px; 
+  bottom: 0px;
+}
 
-.main-footer {
-  background: #D8D8D8;
-  padding: 2em 0;
-  margin-top: 30px;
-  border-top: 1px solid black; }
+.left-column li {
+    padding-top: 30px;
+}
 
-.right-footer-nav li {
-  display: none;
-  /* found on MDN */ }
 
-h2,
-h3,
-a, #title, .col p, .main-nav li, .main-nav li a, .main-header, .main-footer {
-  text-align: center; }
+
+
+
+
+
+
+
+
 
 /* ================================= 
   Media Queries
@@ -135,35 +65,19 @@ a, #title, .col p, .main-nav li, .main-nav li a, .main-header, .main-footer {
 /* 768 px or wider */
 @media (min-width: 768px) {
   .main-nav li {
-    background: #FFFFFF;
-    text-align: center; }
+   
+    text-align: center; 
+    }
 
   .container {
     clear: both; }
 
-  .main-nav li,
-  .name,
-  .main-header,
-  #intro {
-    background-color: mediumpurple; }
+  
+  
 
-  .col {
-    width: 95%;
-    margin: auto;
-    display: inline-block;
-    padding-bottom: 50px; }
 
-  .left {
-    float: left;
-    width: 50%; }
 
-  .right {
-    float: right;
-    width: 50%; }
 
-  #title {
-    margin-top: 50px;
-    margin-bottom: 50px; }
 
   .main-nav li {
     display: inline-block;
@@ -176,30 +90,8 @@ a, #title, .col p, .main-nav li, .main-nav li a, .main-header, .main-footer {
     padding-left: 15px;
     margin-top: 5px; }
 
-  .port-img {
-    max-width: 90%;
-    margin-top: 15px;
-    margin-bottom: 15px; }
 
-  #left-footer-link {
-    font-size: .95em; }
 
-  #right-footer-link {
-    display: none; }
-
-  .right-footer-nav {
-    float: right; }
-
-  .right-footer-nav li {
-    font-size: 0.95em;
-    font-weight: bold;
-    color: black;
-    text-transform: uppercase;
-    margin: 10px;
-    display: inline-block; }
-
-  .right-footer-nav a:visited {
-    color: black; }
 
   /* ---- Float clearfix ---- */
   .clearfix::after {
@@ -211,31 +103,15 @@ a, #title, .col p, .main-nav li, .main-nav li a, .main-header, .main-footer {
 
 /* 1024 px or wider */
 @media (min-width: 1024px) {
-  .col {
-    width: 100%; }
-
-  #intro p {
-    font-size: 1.2em;
-    padding-left: 5px;
-    padding-right: 5px; }
-
-  .main-footer p {
-    font-size: 1em; }
 
   .name {
     float: left;
-    margin-left: 50px; }
+    margin-left: 50px; 
+  }
 
-  .main-nav {
-    float: right;
-    margin-right: 50px; }
+ 
+    
+}
 
-  .row-one {
-    /*display: inline-block;*/ }
 
-  .left,
-  .right {
-    float: left;
-    width: 33%; } }
 
-/*# sourceMappingURL=application.css.map */
