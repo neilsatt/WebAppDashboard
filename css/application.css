@@ -15,22 +15,28 @@ body {
 }
 
 .main-header {
-  height: 5em;  
+  height: 5em; 
+  background-color: #716ecc; 
 }
 
 .main-nav {
     float: right;
     margin-top: 25px;
-    margin-right: 50px; 
+    margin-right: 170px; 
     color: white;
 }
 
-.name {
-    color: white;
+.appName {
+    
 }
 
-.main-header {
+#alertMessage {
+    height: 2.5em;
     background-color: #716ecc; 
+    margin-top: 20px;
+    margin-left: 200px;
+    width: 1100px;
+    border-radius: 10px;
 }
 
 
@@ -49,6 +55,30 @@ body {
     padding-top: 30px;
 }
 
+.circle {
+    height: 8px;
+    width: 8px;
+    background-color: #21ef21;
+    display: block;
+    position: absolute;
+    border-radius: 100px;
+    top: 38px;
+    right: 230px;
+}
+
+#bar {
+    border-left: 1px solid #656060; 
+    height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+ #name {
+     position: absolute;
+     right: 40px;
+     top: 38px;
+}
+
 
 
 
@@ -64,49 +94,28 @@ body {
 ==================================== */
 /* 768 px or wider */
 @media (min-width: 768px) {
-  .main-nav li {
-   
-    text-align: center; 
-    }
 
-  .container {
-    clear: both; }
 
   
-  
-
-
-
-
-
   .main-nav li {
     display: inline-block;
-    /* display side by side */
-    list-style: none; }
-
-  .profile-img {
-    max-width: 40%;
-    float: right;
-    padding-left: 15px;
-    margin-top: 5px; }
+   }
 
 
 
 
-  /* ---- Float clearfix ---- */
-  .clearfix::after {
-    content: " ";
-    display: table;
-    clear: both; } }
+
+
 
 
 
 /* 1024 px or wider */
 @media (min-width: 1024px) {
 
-  .name {
+  .appName {
     float: left;
     margin-left: 50px; 
+    color: white;
   }
 
  
