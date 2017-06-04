@@ -1,9 +1,3 @@
-/* ================================= 
-  Global Imports
-==================================== */
-/* ================================= 
-  Base Element Styles
-==================================== */
 * {
   box-sizing: border-box; 
 }
@@ -12,49 +6,98 @@ body {
   font-family: 'Varela Round', sans-serif;
   line-height: 1.6;
   color: #3a3a3a; 
-    background-color: aliceblue;
+  background-color: aliceblue;
 }
 
 .main-header {
-  height: 5em; 
+  height: 6em; 
   background-color: #716ecc; 
-  width: 100em;
+  width: 90em;
+  display: table; 
 }
 
 .main-nav {
     float: right;
-    margin-top: 25px;
-    margin-right: 170px; 
     color: white;
+    margin-top: 35px;
+    position: relative; /* keeps circle from moving when resizing */
+    padding-right: 15px;
 }
 
-.appName {
-    
+
+#leftSubHeader {
+    margin-left: 120px;
+    font-size: 22px;
+    margin-top: 25px;
 }
+
+#topSearch {
+    background-color: #F5F5F5;
+    width: 70em;
+    height: 5em;
+    border-bottom: 1px solid grey;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    margin-left: 85px;
+    position: absolute;
+}
+
+#dashSearch {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 800px;
+    width: 240px;
+    z-index: 1;
+    border-radius: 3px;
+}
+
+.block {
+    display: inline-block;
+}
+
 
 #alertMessage {
     height: 2.5em;
     background-color: #716ecc; 
-    margin-top: 20px;
-    margin-left: 200px;
+    margin-top: 55px;
+    margin-left: 125px;
     width: 80em;
     border-radius: 10px;
+}
+
+#alertMessage p {
+    position: relative;
+    color: white;
+    top: 8px;
+    left: 15px;
+}
+
+#alertButton {
+    position: absolute;
+    color: white;
+    background-color: #716ecc;
+    border: none;
+    right: 30px;
+}
+
+.bold {
+    font-weight: bold;
 }
 
 
 .left-column {
   position:fixed; /* <-- fixes the left panel to prevent from scrolling */
-  top:0;
-  left:0;
   width:100px;
   height:800px;
   background: #44427a; 
-  top: 80px; 
+  top: 94px; 
   bottom: 0px;
+  list-style: none;
 }
 
 .left-column li {
     padding-top: 30px;
+    padding-left: 25px;
 }
 
 .circle {
@@ -62,10 +105,11 @@ body {
     width: 8px;
     background-color: #21ef21;
     display: block;
-    position: absolute;
+    top: 12px;
+    left: 22px;
     border-radius: 100px;
-    top: 38px;
-    right: 550px;
+    position: absolute;
+    
 }
 
 #bar {
@@ -76,17 +120,12 @@ body {
 }
 
  #name {
-     position: absolute;
-     right: 355px;
-     top: 38px;
+/*
+    // position: absolute;
+     //right: 355px;
+     //top: 38px;
+*/
 }
-
-
-
-
-
-
-
 
 
 
@@ -99,28 +138,20 @@ body {
 
 
   
-  .main-nav li {
-    display: inline-block;
-   }
-
-
-
-
-
-
-
+    .main-nav li {
+        display: inline-block;
+    }
+    
+}
 
 
 /* 1024 px or wider */
 @media (min-width: 1024px) {
-
   .appName {
     float: left;
     margin-left: 50px; 
     color: white;
   }
-
- 
     
 }
 
