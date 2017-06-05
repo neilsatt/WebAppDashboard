@@ -65,126 +65,6 @@ body {
     width: 24px; 
     z-index: 3;
 }
-  
-
-
-
-
-/* ================================= 
-  Media Queries
-==================================== */
-/* 768 px or wider */
-@media (min-width: 768px) {
-
-     .main-header {
-      height: 5em; 
-      background-color: #716ecc; 
-      width: 70em;
-    }
-    
-  .left-column {
-        position:fixed; /* <-- fixes the left panel to prevent from scrolling */
-        width:100px;
-        height:800px;
-        background: #44427a; 
-        top: 80px; 
-        bottom: 0px;
-        list-style: none;
-    }
-  
-   .main-nav {
-    padding-right: 125px;
-  }
-    
-    
-  #topSearchBG {
-    width: 48em;
-    height: 4em;
-    margin-left: 345px;
-    margin-top: -60px;
-
-  }
-    
-  #leftSubHeader {
-    margin-left: 120px;
-    font-size: 22px;
-    margin-top: 25px;
-  }
-    
-  .left-column li {
-    padding-top: 30px;
-    padding-left: 25px;
-   }
-    
-    #topSearchInput {
-     bottom: 50px;
-     left:   675px;
-    }
-    
-    #searchIcon {
-    position: relative;
-    height: 24px;
-    width: 24px; 
-    left: 635px;
-    bottom: 43px;
-    z-index: 3;
-
-}
-  
-  
-    
-    
-   
-    
-}
-
-/* -------------------------------------------------*/
-
-/* 1024 px or wider */
-@media (min-width: 1024px) {
-
-    
- .main-header {
-  height: 6em; 
-  background-color: #716ecc; 
-  width: 90em;
-}
-
-.main-nav {
-    padding-right: 130px;
-}
-
-
-#leftSubHeader {
-    margin-left: 120px;
-    font-size: 22px;
-    margin-top: 25px;
-}
-
-#topSearchBG {
-    width: 70em;
-    height: 4em;
-    margin-left: 86px;
-    margin-top: 0px;
-}
-    
-
-
-#topSearchInput {  
-    bottom: 44px;
-    left:   985px;
-}
-    
-#searchIcon {
-    left: 935px;
-    bottom: 36px; 
-}
-    
-
-.block {
-    display: inline-block;
-}
-
 
 #alertMessage {
     height: 2.5em;
@@ -208,6 +88,170 @@ body {
     background-color: #716ecc;
     border: none;
     right: 30px;
+}
+
+.bold {
+    font-weight: bold;
+}
+  
+
+
+
+
+/* ================================= 
+  Media Queries
+==================================== */
+/* 768 px or wider */
+@media (min-width: 768px) {
+
+     .main-header {
+      height: 5em; 
+      background-color: #716ecc; 
+      width: 48em;
+    }
+    
+  .left-column {
+        position:fixed; /* <-- fixes the left panel to prevent from scrolling */
+        width:100px;
+        height:800px;
+        background: #44427a; 
+        top: 80px; 
+        bottom: 0px;
+        list-style: none;
+    }
+  
+   .main-nav {
+    margin-right: 26px;
+  }
+    
+    
+  #topSearchBG {
+    width: 33em;
+    height: 4em;
+    margin-left: 240px;
+    margin-top: -60px;
+
+  }
+    
+  #leftSubHeader {
+    margin-left: 120px;
+    font-size: 22px;
+    margin-top: 25px;
+  }
+    
+  .left-column li {
+    padding-top: 30px;
+    padding-left: 25px;
+   }
+    
+   #topSearchInput {
+     bottom: 50px;
+     left:   400px;
+    }
+    
+  #searchIcon {
+     left: 360px;
+     bottom: 43px;
+   }
+    
+    #alertMessage {
+    height: 4.5em;
+    top: 55px;
+    margin-left: 125px;
+    width: 38em;
+   
+}
+
+#alertMessage p {
+    position: relative;
+    color: white;
+    top: 8px;
+    left: 15px;
+}
+
+#alertButton {
+    right: 30px;
+    top: 35px;
+}
+
+.bold {
+    font-weight: bold;
+}
+  
+  
+    
+    
+   
+    
+}
+
+/* -------------------------------------------------*/
+
+/* 1024 px or wider */
+@media (min-width: 1024px) {
+
+    
+ .main-header {
+  height: 6em; 
+  background-color: #716ecc; 
+  width: 65em;
+}
+
+.main-nav {
+   margin-right: 37px;
+}
+
+
+#leftSubHeader {
+    margin-left: 120px;
+    font-size: 22px;
+    margin-top: 25px;
+}
+
+#topSearchBG {
+    width: 45em;
+    height: 4em;
+    margin-left: 86px;
+    margin-top: 0px;
+}
+    
+
+
+#topSearchInput {  
+    bottom: 44px;
+    left:   665px;
+}
+    
+#searchIcon {
+    left: 625px;
+    bottom: 36px; 
+}
+    
+
+.block {
+    display: inline-block;
+}
+
+
+#alertMessage {
+    height: 2.5em;
+    background-color: #716ecc; 
+    top: 55px;
+    margin-left: 125px;
+    width: 52em;
+    border-radius: 10px;
+}
+
+#alertMessage p {
+    position: relative;
+    color: white;
+    top: 8px;
+    left: 15px;
+}
+
+#alertButton {
+    right: 30px;
+    top: 0px;
 }
 
 .bold {
