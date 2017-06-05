@@ -2,6 +2,8 @@
   box-sizing: border-box; 
 }
 
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+
 body {
   font-family: 'Varela Round', sans-serif;
   line-height: 1.6;
@@ -9,11 +11,14 @@ body {
   background-color: aliceblue;
 }
 
-.main-header {
-  height: 6em; 
-  background-color: #716ecc; 
-  width: 90em;
-  display: table; 
+.appName {
+    float: left;
+    margin-left: 50px; 
+    color: white;
+  }
+
+.main-nav li {
+        display: inline-block;
 }
 
 .main-nav {
@@ -21,7 +26,132 @@ body {
     color: white;
     margin-top: 35px;
     position: relative; /* keeps circle from moving when resizing */
-    padding-right: 15px;
+}
+
+#topSearchBG {
+    background-color: #F8F8F8;
+    border-bottom: 1px solid #D3D3D3;
+    border-left: 1px solid #D3D3D3;
+    border-right: 1px solid #D3D3D3;
+    position: absolute;
+}
+
+
+  .circle {
+    height: 8px;
+    width: 8px;
+    background-color: #21ef21;
+    display: block;
+    top: 12px;
+    left: 22px;
+    border-radius: 100px;
+    position: absolute;
+    
+}  
+
+
+    #topSearchInput {
+    position: relative;
+    width:  340px;
+    height: 28px;
+    z-index: 1;
+    border-radius: 7px;
+}
+
+
+#searchIcon {
+    position: relative;
+    height: 24px;
+    width: 24px; 
+    z-index: 3;
+}
+  
+
+
+
+
+/* ================================= 
+  Media Queries
+==================================== */
+/* 768 px or wider */
+@media (min-width: 768px) {
+
+     .main-header {
+      height: 5em; 
+      background-color: #716ecc; 
+      width: 70em;
+    }
+    
+  .left-column {
+        position:fixed; /* <-- fixes the left panel to prevent from scrolling */
+        width:100px;
+        height:800px;
+        background: #44427a; 
+        top: 80px; 
+        bottom: 0px;
+        list-style: none;
+    }
+  
+   .main-nav {
+    padding-right: 125px;
+  }
+    
+    
+  #topSearchBG {
+    width: 48em;
+    height: 4em;
+    margin-left: 345px;
+    margin-top: -60px;
+
+  }
+    
+  #leftSubHeader {
+    margin-left: 120px;
+    font-size: 22px;
+    margin-top: 25px;
+  }
+    
+  .left-column li {
+    padding-top: 30px;
+    padding-left: 25px;
+   }
+    
+    #topSearchInput {
+     bottom: 50px;
+     left:   675px;
+    }
+    
+    #searchIcon {
+    position: relative;
+    height: 24px;
+    width: 24px; 
+    left: 635px;
+    bottom: 43px;
+    z-index: 3;
+
+}
+  
+  
+    
+    
+   
+    
+}
+
+/* -------------------------------------------------*/
+
+/* 1024 px or wider */
+@media (min-width: 1024px) {
+
+    
+ .main-header {
+  height: 6em; 
+  background-color: #716ecc; 
+  width: 90em;
+}
+
+.main-nav {
+    padding-right: 130px;
 }
 
 
@@ -31,25 +161,25 @@ body {
     margin-top: 25px;
 }
 
-#topSearch {
-    background-color: #F5F5F5;
+#topSearchBG {
     width: 70em;
-    height: 5em;
-    border-bottom: 1px solid grey;
-    border-left: 1px solid grey;
-    border-right: 1px solid grey;
-    margin-left: 85px;
-    position: absolute;
+    height: 4em;
+    margin-left: 86px;
+    margin-top: 0px;
 }
+    
 
-#dashSearch {
-    position: absolute;
-    margin-top: 30px;
-    margin-left: 800px;
-    width: 240px;
-    z-index: 1;
-    border-radius: 3px;
+
+#topSearchInput {  
+    bottom: 44px;
+    left:   985px;
 }
+    
+#searchIcon {
+    left: 935px;
+    bottom: 36px; 
+}
+    
 
 .block {
     display: inline-block;
@@ -59,7 +189,7 @@ body {
 #alertMessage {
     height: 2.5em;
     background-color: #716ecc; 
-    margin-top: 55px;
+    top: 55px;
     margin-left: 125px;
     width: 80em;
     border-radius: 10px;
@@ -100,18 +230,6 @@ body {
     padding-left: 25px;
 }
 
-.circle {
-    height: 8px;
-    width: 8px;
-    background-color: #21ef21;
-    display: block;
-    top: 12px;
-    left: 22px;
-    border-radius: 100px;
-    position: absolute;
-    
-}
-
 #bar {
     border-left: 1px solid #656060; 
     height: 40px;
@@ -119,39 +237,8 @@ body {
     margin-right: 10px;
 }
 
- #name {
-/*
-    // position: absolute;
-     //right: 355px;
-     //top: 38px;
-*/
-}
 
-
-
-
-/* ================================= 
-  Media Queries
-==================================== */
-/* 768 px or wider */
-@media (min-width: 768px) {
-
-
-  
-    .main-nav li {
-        display: inline-block;
-    }
     
-}
-
-
-/* 1024 px or wider */
-@media (min-width: 1024px) {
-  .appName {
-    float: left;
-    margin-left: 50px; 
-    color: white;
-  }
     
 }
 
