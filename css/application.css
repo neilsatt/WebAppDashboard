@@ -1,8 +1,10 @@
+/*
 * {
   box-sizing: border-box; 
 }
+*/
 
-@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+/* 320px and global styles for all sizes */
 
 body {
   font-family: 'Varela Round', sans-serif;
@@ -13,31 +15,89 @@ body {
 
 .appName {
     float: left;
-    margin-left: 50px; 
+    margin-left: 15px; 
     color: white;
   }
 
-.main-nav li {
-        display: inline-block;
-}
+.main-header {
+      height: 5em; 
+      background-color: #716ecc; 
+      width: 48em;
+     }
+
+
 
 .main-nav {
-    float: right;
+    float: left;
     color: white;
     margin-top: 35px;
     position: relative; /* keeps circle from moving when resizing */
 }
 
+
+
+.main-nav li {
+        display: inline-block;
+}
+
+
+/*
 #topSearchBG {
     background-color: #F8F8F8;
     border-bottom: 1px solid #D3D3D3;
     border-left: 1px solid #D3D3D3;
     border-right: 1px solid #D3D3D3;
     position: absolute;
+    left: 80px;
+    top: 80px;
+        width: 33em;
+        height: 4em;
+}
+*/
+
+#topSearchInput {
+    position: relative;
+    width:  220px;
+    height: 28px;
+    z-index: 1;
+    border-radius: 7px;
+    bottom: 0px;
+    left:   68px;
+
+}
+
+#searchIcon {
+    position: relative;
+    height: 24px;
+    width: 24px; 
+    z-index: 3;
+    left: 38px;
+    top: 8px;
+}
+
+#leftSubHeader {
+        margin-left: 84px;
+        font-size: 22px;
+        margin-top: 25px;
+}
+
+.left-column {
+        position:fixed; /* prevent scrolling */
+        width:60px;
+        height:800px;
+        background: #44427a; 
+        top: 80px; 
+        bottom: 0px;
+        list-style: none;
+}
+    
+.left-column li {
+        padding-top: 30px;
+        padding-left: 12px;
 }
 
 
-  .circle {
+.circle {
     height: 8px;
     width: 8px;
     background-color: #21ef21;
@@ -45,33 +105,18 @@ body {
     top: 12px;
     left: 22px;
     border-radius: 100px;
-    position: absolute;
-    
+    position: absolute; 
 }  
 
 
-    #topSearchInput {
-    position: relative;
-    width:  340px;
-    height: 28px;
-    z-index: 1;
-    border-radius: 7px;
-}
 
-
-#searchIcon {
-    position: relative;
-    height: 24px;
-    width: 24px; 
-    z-index: 3;
-}
 
 #alertMessage {
-    height: 2.5em;
+    height: 7.5em;
     background-color: #716ecc; 
     top: 55px;
-    margin-left: 125px;
-    width: 80em;
+    margin-left: 65px;
+    width: 15em;
     border-radius: 10px;
 }
 
@@ -80,6 +125,7 @@ body {
     color: white;
     top: 8px;
     left: 15px;
+     width: 14em;
 }
 
 #alertButton {
@@ -87,14 +133,20 @@ body {
     color: white;
     background-color: #716ecc;
     border: none;
-    right: 30px;
+    right: 4px;
+    top: 82px;
 }
 
 .bold {
     font-weight: bold;
 }
   
-
+#bar {
+    border-left: 1px solid #656060; 
+    height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
 
 
 
@@ -103,15 +155,16 @@ body {
 ==================================== */
 /* 768 px or wider */
 @media (min-width: 768px) {
+/*
 
-     .main-header {
+    .main-header {
       height: 5em; 
       background-color: #716ecc; 
       width: 48em;
-    }
+     }
     
-  .left-column {
-        position:fixed; /* <-- fixes the left panel to prevent from scrolling */
+   .left-column {
+        position:fixed;  <-- fixes the left panel to prevent from scrolling 
         width:100px;
         height:800px;
         background: #44427a; 
@@ -120,68 +173,69 @@ body {
         list-style: none;
     }
   
-   .main-nav {
-    margin-right: 26px;
-  }
-    
-    
-  #topSearchBG {
-    width: 33em;
-    height: 4em;
-    margin-left: 240px;
-    margin-top: -60px;
-
-  }
-    
-  #leftSubHeader {
-    margin-left: 120px;
-    font-size: 22px;
-    margin-top: 25px;
-  }
-    
-  .left-column li {
-    padding-top: 30px;
-    padding-left: 25px;
-   }
-    
-   #topSearchInput {
-     bottom: 50px;
-     left:   400px;
+    .main-nav {
+      margin-right: 26px;
     }
     
-  #searchIcon {
+    
+    #topSearchBG {
+        width: 33em;
+        height: 4em;
+        margin-left: 240px;
+        margin-top: -60px;
+    }
+    
+    #leftSubHeader {
+        margin-left: 120px;
+        font-size: 22px;
+        margin-top: 25px;
+    }
+    
+    .left-column li {
+        padding-top: 30px;
+        padding-left: 25px;
+    }
+    
+    #topSearchInput {
+      bottom: 50px;
+      left:   400px;
+      width:  340px;
+    }
+    
+   #searchIcon {
      left: 360px;
      bottom: 43px;
    }
     
-    #alertMessage {
-    height: 4.5em;
-    top: 55px;
-    margin-left: 125px;
-    width: 38em;
-   
-}
+   #alertMessage {
+      height: 4.5em;
+      top: 55px;
+      margin-left: 125px;
+      width: 38em;
 
-#alertMessage p {
-    position: relative;
-    color: white;
-    top: 8px;
-    left: 15px;
-}
+    }
 
-#alertButton {
-    right: 30px;
-    top: 35px;
-}
+   #alertMessage p {
+      position: relative;
+      color: white;
+      top: 8px;
+      left: 15px;
+    }
 
-.bold {
-    font-weight: bold;
-}
-  
-  
+    #alertButton {
+        right: 30px;
+        top: 35px;
+    }
     
-    
-   
+    #bar {
+    border-left: 1px solid #656060; 
+    height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+  
+*/
     
 }
 
@@ -191,6 +245,7 @@ body {
 @media (min-width: 1024px) {
 
     
+/*
  .main-header {
   height: 6em; 
   background-color: #716ecc; 
@@ -220,6 +275,7 @@ body {
 #topSearchInput {  
     bottom: 44px;
     left:   665px;
+    width:  340px;
 }
     
 #searchIcon {
@@ -227,11 +283,6 @@ body {
     bottom: 36px; 
 }
     
-
-.block {
-    display: inline-block;
-}
-
 
 #alertMessage {
     height: 2.5em;
@@ -254,13 +305,10 @@ body {
     top: 0px;
 }
 
-.bold {
-    font-weight: bold;
-}
 
 
 .left-column {
-  position:fixed; /* <-- fixes the left panel to prevent from scrolling */
+  position:fixed;  <-- fixes the left panel to prevent from scrolling 
   width:100px;
   height:800px;
   background: #44427a; 
@@ -280,6 +328,7 @@ body {
     margin-left: 10px;
     margin-right: 10px;
 }
+*/
 
 
     
