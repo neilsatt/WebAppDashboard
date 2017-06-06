@@ -155,7 +155,7 @@ body {
 ==================================== */
 /* 768 px or wider */
 @media (min-width: 768px) {
-/*
+
 
     .main-header {
       height: 5em; 
@@ -183,6 +183,16 @@ body {
         height: 4em;
         margin-left: 240px;
         margin-top: -60px;
+    
+    
+        background-color: #F8F8F8;
+        border-bottom: 1px solid #D3D3D3;
+        border-left: 1px solid #D3D3D3;
+        border-right: 1px solid #D3D3D3;
+        position: absolute;
+ 
+        width: 33em;
+        height: 4em;
     }
     
     #leftSubHeader {
@@ -235,7 +245,7 @@ body {
 }
 
   
-*/
+
     
 }
 
@@ -245,7 +255,7 @@ body {
 @media (min-width: 1024px) {
 
     
-/*
+
  .main-header {
   height: 6em; 
   background-color: #716ecc; 
@@ -328,7 +338,7 @@ body {
     margin-left: 10px;
     margin-right: 10px;
 }
-*/
+
 
 
     
