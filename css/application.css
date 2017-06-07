@@ -196,6 +196,7 @@ body {
       height: 4em;
       margin-left: 125px;
       width: 40em;
+      margin-top: -26px;
     }
 
    #alertMessage p {
