@@ -22,10 +22,8 @@ body {
 .main-header {
       height: 5em; 
       background-color: #716ecc; 
-      width: 48em;
+      width: 27em;
      }
-
-
 
 .main-nav {
     float: left;
@@ -41,18 +39,14 @@ body {
 }
 
 
-/*
-#topSearchBG {
-    background-color: #F8F8F8;
-    border-bottom: 1px solid #D3D3D3;
-    border-left: 1px solid #D3D3D3;
-    border-right: 1px solid #D3D3D3;
-    position: absolute;
-    left: 80px;
-    top: 80px;
-        width: 33em;
-        height: 4em;
-}
+/*  Decided to remove for mobile
+    #topSearchBG {
+        background-color: #F8F8F8;
+        border-bottom: 1px solid #D3D3D3;
+        border-left: 1px solid #D3D3D3;
+        border-right: 1px solid #D3D3D3;
+        position: absolute;
+    }
 */
 
 #topSearchInput {
@@ -96,7 +90,6 @@ body {
         padding-left: 12px;
 }
 
-
 .circle {
     height: 8px;
     width: 8px;
@@ -107,9 +100,6 @@ body {
     border-radius: 100px;
     position: absolute; 
 }  
-
-
-
 
 #alertMessage {
     height: 7.5em;
@@ -156,54 +146,39 @@ body {
 /* 768 px or wider */
 @media (min-width: 768px) {
 
-
     .main-header {
-      height: 5em; 
-      background-color: #716ecc; 
       width: 48em;
      }
     
    .left-column {
-        position:fixed;  <-- fixes the left panel to prevent from scrolling 
         width:100px;
-        height:800px;
-        background: #44427a; 
-        top: 80px; 
-        bottom: 0px;
-        list-style: none;
     }
   
     .main-nav {
       margin-right: 26px;
+       float: right;    
     }
-    
-    
+      
     #topSearchBG {
         width: 33em;
         height: 4em;
         margin-left: 240px;
         margin-top: -60px;
-    
-    
         background-color: #F8F8F8;
         border-bottom: 1px solid #D3D3D3;
         border-left: 1px solid #D3D3D3;
         border-right: 1px solid #D3D3D3;
         position: absolute;
- 
         width: 33em;
         height: 4em;
     }
     
     #leftSubHeader {
         margin-left: 120px;
-        font-size: 22px;
-        margin-top: 25px;
     }
     
     .left-column li {
-        padding-top: 30px;
-        padding-left: 25px;
+        padding-left: 30px;
     }
     
     #topSearchInput {
@@ -214,37 +189,24 @@ body {
     
    #searchIcon {
      left: 360px;
-     bottom: 43px;
+     top: -42px;
    }
     
    #alertMessage {
-      height: 4.5em;
-      top: 55px;
+      height: 4em;
       margin-left: 125px;
-      width: 38em;
-
+      width: 40em;
     }
 
    #alertMessage p {
-      position: relative;
-      color: white;
       top: 8px;
-      left: 15px;
+      width: 36em;
     }
 
     #alertButton {
-        right: 30px;
-        top: 35px;
+        right: -38px;
+        top: 28px;
     }
-    
-    #bar {
-    border-left: 1px solid #656060; 
-    height: 40px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-  
 
     
 }
@@ -254,93 +216,67 @@ body {
 /* 1024 px or wider */
 @media (min-width: 1024px) {
 
-    
+     .main-header {
+      height: 6em; 
+      width: 65em;
+    }
 
- .main-header {
-  height: 6em; 
-  background-color: #716ecc; 
-  width: 65em;
-}
-
-.main-nav {
-   margin-right: 37px;
-}
+    .main-nav {
+       margin-right: 37px;
+       float: right
+    }
 
 
-#leftSubHeader {
-    margin-left: 120px;
-    font-size: 22px;
-    margin-top: 25px;
-}
+    #leftSubHeader {
+        margin-left: 120px;
+        margin-top: 25px;
+    }
 
-#topSearchBG {
-    width: 45em;
-    height: 4em;
-    margin-left: 86px;
-    margin-top: 0px;
-}
-    
+    #topSearchBG {
+        width: 45em;
+        margin-left: 318px;
+    }
 
+    #topSearchInput {  
+        bottom: 44px;
+        left:   665px;
+        width:  340px;
+    }
 
-#topSearchInput {  
-    bottom: 44px;
-    left:   665px;
-    width:  340px;
-}
-    
-#searchIcon {
-    left: 625px;
-    bottom: 36px; 
-}
-    
-
-#alertMessage {
-    height: 2.5em;
-    background-color: #716ecc; 
-    top: 55px;
-    margin-left: 125px;
-    width: 52em;
-    border-radius: 10px;
-}
-
-#alertMessage p {
-    position: relative;
-    color: white;
-    top: 8px;
-    left: 15px;
-}
-
-#alertButton {
-    right: 30px;
-    top: 0px;
-}
+    #searchIcon {
+        left: 625px;
+        bottom: 36px; 
+    }
 
 
+    #alertMessage {
+        height: 2.5em;
+        margin-top: -25px;
+        margin-left: 116px;
+        width: 58em;
+    }
 
-.left-column {
-  position:fixed;  <-- fixes the left panel to prevent from scrolling 
-  width:100px;
-  height:800px;
-  background: #44427a; 
-  top: 94px; 
-  bottom: 0px;
-  list-style: none;
-}
+    #alertMessage p {
+        top: 8px;
+        left: 15px;
+        width: 58em;
+    }
 
-.left-column li {
-    padding-top: 30px;
-    padding-left: 25px;
-}
+    #alertButton {
+        right: 30px;
+        top: 0px;
+    }
 
-#bar {
-    border-left: 1px solid #656060; 
-    height: 40px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
+    .left-column {
+      height:800px; 
+      top: 94px; 
+      bottom: 0px;
+    }
 
-
-
+    .left-column li {
+        padding-top: 30px;
+        padding-left: 30px;
+    }
     
     
 }
