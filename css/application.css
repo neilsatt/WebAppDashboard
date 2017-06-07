@@ -17,6 +17,8 @@ body {
     float: left;
     margin-left: 15px; 
     color: white;
+    font-size: 22px;
+    margin-top: 4px;
   }
 
 .main-header {
@@ -28,7 +30,8 @@ body {
 .main-nav {
     float: left;
     color: white;
-    margin-top: 35px;
+    margin-top: 30px;
+    margin-left: -10px;
     position: relative; /* keeps circle from moving when resizing */
 }
 
@@ -90,7 +93,7 @@ body {
         padding-left: 12px;
 }
 
-.circle {
+#circle {
     height: 8px;
     width: 8px;
     background-color: #21ef21;
@@ -130,6 +133,14 @@ body {
 .bold {
     font-weight: bold;
 }
+
+.thin {
+    font-family: "Arial Narrow", Arial, sans-serif;  
+}
+
+.trademark {
+    font-size: 18px;
+}
   
 #bar {
     border-left: 1px solid #656060; 
@@ -156,7 +167,8 @@ body {
   
     .main-nav {
       margin-right: 26px;
-       float: right;    
+       margin-top: 16px;
+      float: right;    
     }
       
     #topSearchBG {
@@ -224,6 +236,7 @@ body {
 
     .main-nav {
        margin-right: 37px;
+       margin-top: 22px;
        float: right
     }
 

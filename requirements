@@ -1,12 +1,14 @@
-Create a responsive web page from the supplied dashboard.png mockup with the following:
 
+FIX APPNAME TO MATCH MOCK
+
+Create a responsive web page from the supplied dashboard.png mockup with the following - DONE
     Header with app name, notification icon badge and profile avatar and name.
     SVG icon based navigation with the following links: Dashboard, Members, Visits, and Settings. NOTE: You only have to build out the main dashboard page, not any of the other pages.
     Main content area where the specific dashboard widgets will go.
     Ensure that the design responds well to mobile (320px), tablet (768px) and desktop (1024px) screen sizes.
     
     
-Demo alert notification:
+Demo alert notification (remove circle also) - DONE 
     In the dashboard.png, this appears as the purple bar near the top of the page with the word "Alert" in it. When the page loads this alert should be visible, 
     but the user should be able to close the alert by clicking the X button.
     Include a notification icon in the navigation header. Use the icon-bell.svg file. In the mockup this is the bell in the top right corner of the page
