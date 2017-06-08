@@ -292,6 +292,13 @@ body {
         padding-left: 30px;
     }
     
+    #chartOne {
+        height: 400px;
+        width: 900px;
+        margin-left: 115px;
+        margin-top: 60px;
+    }
+    
     
 }
 
