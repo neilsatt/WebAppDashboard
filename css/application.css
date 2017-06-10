@@ -259,7 +259,7 @@ body {
 
     #searchIcon {
         left: 625px;
-        bottom: 36px; 
+        top: -34px; 
     }
 
 
@@ -282,9 +282,11 @@ body {
     }
 
     .left-column {
-      height:800px; 
-      top: 94px; 
-      bottom: 0px;
+      position: absolute;
+        overflow: auto;
+      margin-top: 16px; 
+        height: 1600px;
+      
     }
 
     .left-column li {
@@ -298,6 +300,76 @@ body {
         margin-left: 115px;
         margin-top: 60px;
     }
+    
+
+    
+    #chartOneHeader {
+        width: 1045px;
+    }
+    
+    #chartOneHeaderLeft {
+        float: left;
+        margin-left: 125px;
+    }
+    
+    #chartOneHeaderRight {
+        float: right;
+        margin-right: 25px;
+    }
+    #headerBtn {  
+        border: none;
+        background-color: aliceblue;
+    }
+    #activeBtn{
+        border: none;
+        background-color: limegreen;
+        border-radius: 30px;
+        color: white;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    
+    #chartSecondRow {
+        width: 80%;
+        overflow: hidden; 
+    }
+    
+    #chartTwo {
+        height: 325px;
+        width: 425px;
+        float: left;
+        margin-left: 125px;
+        margin-top: 20px;
+        border: 1px solid grey;
+        padding: 13px;
+    }
+    
+    #chartThree {
+        height: 325px;
+        width: 425px;
+        margin-left: 577px;
+        margin-top: 20px;
+        border: 1px solid grey;
+        padding: 13px;
+    }
+    
+    .chart-legend {
+        margin-left: 325px;
+        margin-top: -150px;
+    }
+    
+   .chart-legend li span{
+     display: inline-block;
+     width: 12px;
+     height: 12px;
+     margin-right: 5px;
+}
+    
+    
+    
+}
+    
+    
     
     
 }
