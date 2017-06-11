@@ -285,7 +285,7 @@ body {
       position: absolute;
         overflow: auto;
       margin-top: 16px; 
-        height: 1600px;
+        height: 2000px;
       
     }
 
@@ -416,6 +416,30 @@ body {
         width: 80%;
         overflow: hidden; 
         margin-top:-25px;
+        height: 650px;
+    }
+    
+      #memberLeft {
+        height: 395px;
+        width: 425px;
+        float: left;
+        margin-left: 125px;
+        margin-top: 20px;
+        border: 1px solid grey;
+        padding: 13px;
+    }
+    
+    #memberRight {
+        height: 395px;
+        width: 425px;
+        margin-left: 577px;
+        margin-top: 20px;
+        border: 1px solid grey;
+        padding: 13px;
+    }
+    
+    .memberImg {
+        border-radius: 50%;
     }
     
     
