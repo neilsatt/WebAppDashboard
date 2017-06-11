@@ -363,8 +363,22 @@ body {
      width: 12px;
      height: 12px;
      margin-right: 5px;
-}
+   }
     
+    
+    #socialStats {  
+        margin-left: 125px;
+    }
+    .socialIcon {
+        display: inline-block;
+        width: 272px;
+        border: 1px solid grey;
+        border-radius: 3px;
+        padding-right: 15px;
+        margin-right: 15px;
+    }
+    
+   
     
     
 }
