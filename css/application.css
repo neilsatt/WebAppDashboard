@@ -282,11 +282,10 @@ body {
     }
 
     .left-column {
-      position: absolute;
+       position: absolute;
         overflow: auto;
-      margin-top: 16px; 
-        height: 2000px;
-      
+        margin-top: 16px; 
+        height: 2100px; 
     }
 
     .left-column li {
@@ -340,7 +339,7 @@ body {
         float: left;
         margin-left: 125px;
         margin-top: 20px;
-        border: 1px solid grey;
+        border: 1px solid #DCDCDC;
         padding: 13px;
     }
     
@@ -349,7 +348,7 @@ body {
         width: 425px;
         margin-left: 577px;
         margin-top: 20px;
-        border: 1px solid grey;
+        border: 1px solid #DCDCDC;
         padding: 13px;
     }
     
@@ -365,7 +364,6 @@ body {
      margin-right: 5px;
    }
     
-    
     #socialStats {  
         margin-left: 125px;
     }
@@ -373,7 +371,7 @@ body {
         display: inline-block;
         width: 272px;
         height: 115px;
-        border: 1px solid grey;
+        border: 1px solid #DCDCDC;
         border-radius: 3px;
         padding-right: 15px;
         margin-right: 15px;
@@ -412,20 +410,20 @@ body {
         position: relative;
     }
     
-    #chartFourthRow {
+    #fourthRow {
         width: 80%;
         overflow: hidden; 
         margin-top:-25px;
         height: 650px;
     }
     
-      #memberLeft {
+    #memberLeft {
         height: 395px;
         width: 425px;
         float: left;
         margin-left: 125px;
         margin-top: 20px;
-        border: 1px solid grey;
+        border: 1px solid #DCDCDC;
         padding: 13px;
     }
     
@@ -434,7 +432,7 @@ body {
         width: 425px;
         margin-left: 577px;
         margin-top: 20px;
-        border: 1px solid grey;
+        border: 1px solid #DCDCDC;
         padding: 13px;
     }
     
@@ -442,8 +440,110 @@ body {
         border-radius: 50%;
     }
     
+    hr {
+        border-top: 1px solid #DCDCDC;
+    }
+    
+    .leftMemberDate {
+        float: right;
+        margin-top: 15px;
+    }
+    
+    .memberName {
+        margin-left: 10px;
+        bottom: 15px;
+        position: relative;
+        font-size: 12px;
+    }
+    
+    .email {
+        margin-left: 50px;
+        color: #716ecc; 
+        bottom: 15px;
+        position: relative;
+        font-size: 12px;
+    }
+    
+    .postTime {
+        margin-left: 50px;
+        bottom: 15px;
+        position: relative;
+        font-size: 12px;
+    }
+    
+    .chevron {
+        font-size: 28px;
+        color: #716ecc; 
+        float: right;
+        margin-top: 1px;
+    }
+    
+     #fifthRow {
+        width: 80%;
+        overflow: hidden; 
+        margin-top: -185px;
+        height: 650px;
+       
+    }
+    
+    #bottomSearchInput {
+        position: relative;
+        width:  400px;
+        height: 28px;
+        border-radius: 7px;
+    }
+    
+    #messageTextArea {
+        border-radius: 7px;
+        margin-top: 15px;
+        resize: none;
+    }
+    
+    #sendBtn {
+        border: none;
+        background-color: #716ecc;
+        border-radius: 5px;
+        color: white;
+        padding-left: 12px;
+        padding-right: 12px;
+        width: 400px;
+        font-size: 14px;
+        height: 50px; 
+    }
+    
+    #emailNotification{
+        margin-top: 20px;
+    }
+    
+    #optionTimeZone {
+        width: 400px;
+        height: 40px;
+        border-radius: 5px;
+        margin-top: 90px;
+    }
+    
+    #saveBtn, #cancelBtn{
+        border: none;
+        border-radius: 5px;
+        color: white;
+        width: 200px;
+        font-size: 14px;
+        height: 50px; 
+    }
+    
+    #saveBtn {
+        background-color: #716ecc;
+        margin-top: 5px;
+    }
+    
+    #cancelBtn {
+        background-color: grey;
+    }
     
     
+    }
+    
+  
     
     
    }

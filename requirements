@@ -35,18 +35,18 @@ Social Stats Widget - DONE
     Style to match the overall look and feel of the dashboard
     
     
-New Members and Recent Activity Widgets
+New Members and Recent Activity Widgets - DONE 
     Create widgets that lists users for both widgets.
     Include avatars for each member (You can search for a “random user generator” like https://randomuser.me/photos or find some some pictures elsewhere).
     Add the information for each user as shown in the mockup, such as Member name, email address, Sign up Date etc.
     
     
-Message User Widget
+Message User Widget - 
     Create a field for searching for a user.
     You don't have to add real search functionality, but if you attempt to get the exceeds grade, you'll need to make up some user data.
     Add a message textarea field that lets you add a message.
-    Create a “Send” button and use JS to allow you to submit the form and display a confirmation the message was sent. You won't actually submit the form, just simulate the action using JavaScript.
-    Use JS to display error messages if user isn’t selected or message field is empty.
+    Create a “Send” button and use JS to allow you to submit the form and display a confirmation the message was sent. You won't actually submit the form, just simulate the action using JavaScript. - TODO
+    Use JS to display error messages if user isn’t selected or message field is empty. - TODO
     Style to match the overall look and feel of the dashboard.
     
     
