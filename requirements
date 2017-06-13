@@ -50,7 +50,7 @@ Message User Widget -
     Style to match the overall look and feel of the dashboard.
     
     
-Settings Widget
+Settings Widget - DONE 
     Create a settings widget to display various setting options using different form elements.
     Create an on/off widget for whether to send email notifications.
     Create an on/off widget for whether to set profile to public or private.
