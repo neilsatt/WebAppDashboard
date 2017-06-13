@@ -14,11 +14,25 @@ function removeCircle() {
 
 // send btn functionality
 let sendBtn = document.getElementById('sendBtn');
+let searchInput = document.getElementById('bottomSearchInput');
+let messageArea = document.getElementById('messageTextArea');
 sendBtn.addEventListener('click', sendMessage, false);
 
 function sendMessage() {
-    alert('hi there');
-    //if user isn’t selected or message field is empty.
+    if(searchInput.value === ""){
+        alert('Please enter a User Name'); 
+        return;
+    }
+    else {
+        alert("The User you searched for is: "+searchInput.value);
+    }
+    if(messageArea.value === ""){
+        alert('Please enter a Message'); 
+        return;
+    }
+    else {
+        alert("The Message you left is: "+messageArea.value);
+    }
 }
 
 // jquery on/off button
