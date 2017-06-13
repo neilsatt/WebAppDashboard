@@ -56,7 +56,26 @@ Settings Widget - DONE
     Create an on/off widget for whether to set profile to public or private.
     Create a dropdown to select timezone.
     Add Save and Cancel buttons (these do not have to do anything functional).
-    Style to match the overall look and feel of the dashboard.
+    Style to match the overall look and feel of the dashboard
+    
+    
+FINAL CHECKLIST
+    Mobile First - Done
+    Alert Notifications - Done
+    Chart Widgets (Line, Bar, and Donut) - Done
+    Social Network (3 social networks) - Done
+    New Members and Recent Activity - Done
+    Message User Widget (inputs, JS send and error functionality) - Done 
+    SETTINGS On/Off Widgets, Dropdowns, Save/Cancel Btns - Done
+    
+Check in Multiple Browsers - DONE 
+    Chrome
+    Firefox 
+    Edge
+    
+Validate HTML and CSS - 
     
 
+    
+    
 
