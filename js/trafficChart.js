@@ -1,7 +1,6 @@
 var ctx = document.getElementById("trafficLineChart").getContext('2d');
 var myChart = new Chart(ctx, {
-     responsive: true,
-    maintainAspectRatio: false,
+    responsive: true,
     type: 'line',
     data: {
         labels: ["16-22", "23-29", "30-5", "6-12", "13-19", "20-26", "27-3", "4-10", "11-17", "18-24", "25-31" ],

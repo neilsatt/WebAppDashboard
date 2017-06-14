@@ -2,7 +2,6 @@ var ctx = document.getElementById("mobileDonutChart").getContext('2d');
 
 var myChart = new Chart(ctx, {
     responsive: true,
-    maintainAspectRatio: false,
   type: 'doughnut',
   data: {
     labels: ["Phones", "Tablets", "Desktop"],

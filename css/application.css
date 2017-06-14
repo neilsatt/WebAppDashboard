@@ -207,7 +207,7 @@ body {
    #alertMessage {
       height: 4em;
       margin-left: 125px;
-      width: 40em;
+      width: 38em;
       margin-top: -26px;
     }
 
@@ -217,12 +217,40 @@ body {
     }
 
     #alertButton {
-        right: -38px;
+        right: -10px;
         top: 28px;
+    }
+    
+    .headerBtn {  
+        border: none;
+        background-color: aliceblue;
+    }
+    #activeBtn{
+        border: none;
+        background-color: limegreen;
+        border-radius: 30px;
+        color: white;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    
+     #chartOneHeaderLeft {
+        float: left;
+        margin-left: 125px;
+    }
+    
+    #chartOneHeaderRight {
+        float: right;
+        margin-right: 25px;
+    }
+    
+    #chartOne {
+        margin-left: 102px;
+        margin-top: 5px;
     }
 
     
-}
+} /* end of 768 */
 
 /* -------------------------------------------------*/
 

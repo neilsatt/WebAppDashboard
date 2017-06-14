@@ -1,6 +1,5 @@
 new Chart(document.getElementById("trafficBarChart"), {
      responsive: true,
-    maintainAspectRatio: false,
     type: 'bar',
     data: {
       labels: ["S", "M", "T", "W", "T", "F", "S"],
