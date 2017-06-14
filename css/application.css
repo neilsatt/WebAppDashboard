@@ -165,7 +165,7 @@ body {
         width:100px;
         position: absolute;
         overflow: auto;
-        height: 2700px; 
+        height: 2638px; 
     }
   
     .main-nav {
@@ -494,6 +494,13 @@ body {
         margin-top: -25px;
         margin-left: 192px;
     }
+    
+     /* Firefox and Edge fixes */
+    @-moz-document url-prefix() { 
+        #saveBtn {
+            margin-top: -12px;
+        }
+     }
     
 
     
