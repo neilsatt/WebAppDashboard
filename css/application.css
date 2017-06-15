@@ -170,7 +170,7 @@ body {
 
   #chartOneHeaderLeft {
         float: left;
-        margin-left: 10px;
+        margin-left: 6px;
       margin-top: 62px;
 }
 
@@ -186,9 +186,27 @@ body {
         float: left;
         margin-left: 6px;
         margin-top: 34px;
-        border: 1px solid #DCDCDC;
         padding: 4px;
 }
+
+ #chartThree {
+        margin-left: 10px;
+        margin-top: 20px;
+        padding: 13px;
+
+    }
+    
+    .chart-legend {
+        margin-left: 45px;
+        margin-top: -10px;
+    }
+    
+   .chart-legend li span{
+     display: inline-block;
+     width: 12px;
+     height: 12px;
+     margin-right: 5px;
+   }
 
 /* ================================= 
   Media Queries
@@ -200,53 +218,42 @@ body {
       width: 48em;
      }
     
-   .left-column {
-        width:100px;
-        position: absolute;
-        overflow: auto;
-        height: 2638px; 
-    }
-  
     .main-nav {
       margin-right: 26px;
        margin-top: 16px;
       float: right;    
-    }
-      
-    #topSearchBG {
-        width: 33em;
-        height: 4em;
-        margin-left: 240px;
-        margin-top: -60px;
-        background-color: #F8F8F8;
-        border-bottom: 1px solid #D3D3D3;
-        border-left: 1px solid #D3D3D3;
-        border-right: 1px solid #D3D3D3;
-        position: absolute;
-        width: 33em;
-        height: 4em;
     }
     
     #leftSubHeader {
         margin-left: 120px;
     }
     
-    .left-column li {
-        padding-left: 30px;
+    #topSearchBG {
+        width: 33em;
+        height: 4em;
+        margin-left: 223px;
+        margin-top: 231px;
+        background-color: #F8F8F8;
+        border-bottom: 1px solid #D3D3D3;
+        border-left: 1px solid #D3D3D3;
+        border-right: 1px solid #D3D3D3;
+        position: absolute;
+
     }
     
     #topSearchInput {
       bottom: 50px;
       left:   400px;
       width:  340px;
+        margin-top: 296px;
     }
     
-   #searchIcon {
+    #searchIcon {
      left: 360px;
      top: -42px;
-   }
+    }
     
-   #alertMessage {
+    #alertMessage {
       height: 4em;
       margin-left: 125px;
       width: 38em;
@@ -263,6 +270,38 @@ body {
         top: 28px;
     }
     
+     .left-column {
+        width:100px;
+        position: absolute;
+        overflow: auto;
+        height: 2638px; 
+    }
+  
+   .left-column li {
+        padding-left: 30px;
+    }
+    
+    
+    #chartOne {
+        margin-left: 93px;
+        margin-top: 250px;
+        
+    }
+    
+    #chartOneHeader {
+        width: 1045px;
+    }
+    
+    #chartOneHeaderLeft {
+        float: left;
+        margin-left: 125px;
+    }
+    
+    #chartOneHeaderRight {
+        float: right;
+        margin-right: 25px;
+    }
+    
     .headerBtn {  
         border: none;
         background-color: aliceblue;
@@ -276,23 +315,12 @@ body {
         padding-right: 12px;
     }
     
-     #chartOneHeaderLeft {
-        float: left;
-        margin-left: 125px;
+    #chartSecondRow {
+        overflow: hidden; 
+        margin-left: 20px;
     }
     
-    #chartOneHeaderRight {
-        float: right;
-        margin-right: 25px;
-    }
-    
-    #chartOne {
-        margin-left: 93px;
-        margin-top: 5px;
-        
-    }
-    
-    #chartTwo {
+     #chartTwo {
         margin-left: 110px;
         margin-top: 20px;
         border: 1px solid #DCDCDC;
@@ -306,7 +334,7 @@ body {
         padding: 13px;
          height: 355px;
     }
-    
+  
     .chart-legend {
         margin-left: 485px;
         margin-top: -150px;
@@ -318,8 +346,8 @@ body {
      height: 12px;
      margin-right: 5px;
    }
-    
-     #socialStats {  
+      
+    #socialStats {  
         margin-left: 125px;
     }
     .socialIcon {
@@ -339,7 +367,7 @@ body {
         border-radius: 50%;
         margin-top: 15px;
         margin-left: 25px;
-    }
+    } 
     
     .icon {
         top: -50px;
@@ -366,7 +394,7 @@ body {
         position: relative;
     }
     
-      #fourthRow {
+    #fourthRow {
         overflow: hidden; 
         margin-top:-25px;
         height: 650px;
@@ -391,6 +419,7 @@ body {
         padding: 8px;
     }
     
+   
     .memberImg {
         border-radius: 50%;
     }
@@ -495,15 +524,7 @@ body {
         margin-top: 50px;
     }
     
-    #saveBtn, #cancelBtn{
-        border: none;
-        border-radius: 5px;
-        color: white;
-        width: 200px;
-        font-size: 14px;
-        height: 50px;
-    }
-    
+
     #saveBtn {
         background-color: #716ecc;
         margin-top:0px;
@@ -571,6 +592,7 @@ body {
     #topSearchBG {
         width: 45em;
         margin-left: 318px;
+        margin-top: -59px;
     }
 
     #topSearchInput {  
@@ -607,7 +629,7 @@ body {
        position: absolute;
         overflow: auto;
         margin-top: 16px; 
-        height: 2100px; 
+        height: 1946px; 
     }
 
     .left-column li {
@@ -636,6 +658,7 @@ body {
     #chartOneHeaderRight {
         float: right;
         margin-right: 47px;
+        margin-top: 60px;
     }
     .headerBtn {  
         border: none;
@@ -859,25 +882,32 @@ body {
         width: 400px;
         height: 40px;
         border-radius: 5px;
-        margin-top: -2px;
+        margin-top: 32px;
     }
     
-    #saveBtn, #cancelBtn{
+ 
+ 
+    #saveBtn {
+        background-color: #716ecc;
+        margin-top: 0px;
         border: none;
         border-radius: 5px;
         color: white;
-        width: 200px;
+        width: 190px;
         font-size: 14px;
         height: 50px;
-    }
-    
-    #saveBtn {
-        background-color: #716ecc;
-        margin-top: -30px;
+        margin-left: 4px;
     }
     
     #cancelBtn {
         background-color: grey;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        width: 190px;
+        font-size: 14px;
+        height: 50px;
+        margin-left: 4px;
     }
     
     /* Firefox and Edge fixes */
