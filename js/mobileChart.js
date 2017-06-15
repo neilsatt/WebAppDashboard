@@ -23,7 +23,6 @@ var myChart = new Chart(ctx, {
    }
 });
 
-
 document.getElementById('js-legend').innerHTML = myChart.generateLegend();
 
 

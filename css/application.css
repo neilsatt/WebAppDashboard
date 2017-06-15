@@ -215,7 +215,7 @@ body {
 @media (min-width: 768px) {
 
     .main-header {
-      width: 48em;
+      width: 47em;
      }
     
     .main-nav {
@@ -274,7 +274,7 @@ body {
         width:100px;
         position: absolute;
         overflow: auto;
-        height: 2638px; 
+        height: 2022px; 
     }
   
    .left-column li {
@@ -283,8 +283,10 @@ body {
     
     
     #chartOne {
-        margin-left: 93px;
-        margin-top: 250px;
+        margin-left: 114px;
+        margin-top: 60px;
+        height: 250px;
+        width: 610px;
         
     }
     
@@ -295,11 +297,13 @@ body {
     #chartOneHeaderLeft {
         float: left;
         margin-left: 125px;
+        margin-top: 16px;
     }
     
     #chartOneHeaderRight {
         float: right;
-        margin-right: 25px;
+        margin-right: 315px;
+        margin-top:15px
     }
     
     .headerBtn {  
@@ -325,19 +329,23 @@ body {
         margin-top: 20px;
         border: 1px solid #DCDCDC;
         padding: 13px;
+        height: 205px;
+         width: 229px;
     }
     
      #chartThree {
-        margin-left: 110px;
+        margin-left: 366px;
         margin-top: 20px;
         border: 1px solid #DCDCDC;
-        padding: 13px;
-         height: 355px;
+         height: 205px;
+        width: 310px;
     }
   
     .chart-legend {
-        margin-left: 485px;
-        margin-top: -150px;
+        margin-left: 235px;
+        margin-top: -116px;
+        float: left;
+        position: absolute; /* work around get legend aligned */
     }
     
    .chart-legend li span{
@@ -345,6 +353,7 @@ body {
      width: 12px;
      height: 12px;
      margin-right: 5px;
+     
    }
       
     #socialStats {  
@@ -521,20 +530,33 @@ body {
         width: 275px;
         height: 40px;
         border-radius: 5px;
-        margin-top: 50px;
+        margin-top:105px;
     }
     
 
     #saveBtn {
         background-color: #716ecc;
         margin-top:0px;
-        margin-left: 45px;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        width: 130px;
+        font-size: 14px;
+        height: 50px;
+        margin-left: 4px;
     }
     
     #cancelBtn {
         background-color: grey;
-        margin-top:5px;
-        margin-left: 45px;
+         margin-top:0px;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        width: 130px;
+        font-size: 14px;
+        height: 50px;
+        margin-left: 4px;
+       
     }
     
     /* Firefox and Edge fixes */
@@ -596,14 +618,14 @@ body {
     }
 
     #topSearchInput {  
-        bottom: 44px;
+        margin-top: 7px;
         left:   660px;
         width:  340px;
     }
 
     #searchIcon {
         left: 625px;
-        top: -34px; 
+        top: -42px; 
     }
 
 
@@ -653,6 +675,7 @@ body {
     #chartOneHeaderLeft {
         float: left;
         margin-left: 125px;
+        margin-top: 56px;
     }
     
     #chartOneHeaderRight {
