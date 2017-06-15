@@ -41,6 +41,12 @@ body {
         display: inline-block;
 }
 
+#leftSubHeader {
+        margin-left: 84px;
+        font-size: 22px;
+        margin-top: -266px;
+}
+
 
 /*  Decided to remove for mobile
     #topSearchBG {
@@ -72,11 +78,32 @@ body {
     top: 8px;
 }
 
-#leftSubHeader {
-        margin-left: 84px;
-        font-size: 22px;
-        margin-top: -266px;
+#alertMessage {
+    height: 8.5em;
+    background-color: #716ecc; 
+    top: 55px;
+    margin-left: 65px;
+    width: 14em;
+    border-radius: 10px;
 }
+
+#alertMessage p {
+    position: relative;
+    color: white;
+    top: 8px;
+    left: 15px;
+     width: 13em;  
+}
+
+#alertButton {
+    position: absolute;
+    color: white;
+    background-color: #716ecc;
+    border: none;
+    right: 4px;
+    top: 98px;
+}
+
 
 .left-column {
         display: inline-block;
@@ -105,31 +132,7 @@ body {
     position: absolute; 
 }  
 
-#alertMessage {
-    height: 8.5em;
-    background-color: #716ecc; 
-    top: 55px;
-    margin-left: 65px;
-    width: 14em;
-    border-radius: 10px;
-}
 
-#alertMessage p {
-    position: relative;
-    color: white;
-    top: 8px;
-    left: 15px;
-     width: 13em;  
-}
-
-#alertButton {
-    position: absolute;
-    color: white;
-    background-color: #716ecc;
-    border: none;
-    right: 4px;
-    top: 98px;
-}
 
 .bold {
     font-weight: bold;
@@ -150,18 +153,7 @@ body {
     margin-right: 10px;
 }
 
-.headerBtn {  
-        border: none;
-        background-color: aliceblue;
-}
-#activeBtn{
-        border: none;
-        background-color: limegreen;
-        border-radius: 30px;
-        color: white;
-        padding-left: 12px;
-        padding-right: 12px;
-}
+
 
 #chartOne {
     height: 200px;
@@ -180,6 +172,19 @@ body {
      margin-top: -8px;
 }
 
+.headerBtn {  
+        border: none;
+        background-color: aliceblue;
+}
+#activeBtn{
+        border: none;
+        background-color: limegreen;
+        border-radius: 30px;
+        color: white;
+        padding-left: 12px;
+        padding-right: 12px;
+}
+
 #chartTwo {
         height: 205px;
         width: 280px;
@@ -196,17 +201,270 @@ body {
 
     }
     
-    .chart-legend {
+.chart-legend {
         margin-left: 45px;
         margin-top: -10px;
     }
     
-   .chart-legend li span{
+.chart-legend li span{
      display: inline-block;
      width: 12px;
      height: 12px;
      margin-right: 5px;
    }
+
+
+
+ #socialStats {  
+        margin-left: 12px;
+    }
+    .socialIcon {
+        width: 272px;
+        height: 115px;
+        border: 1px solid #DCDCDC;
+        border-radius: 3px;
+        padding-right: 15px;
+        margin-right: 15px;
+        margin-top: 3px;
+    }
+    
+    .iconCircle {
+        background: #716ecc;
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        margin-top: 15px;
+        margin-left: 25px;
+    } 
+    
+    .icon {
+        top: -50px;
+        margin-left: 40px;
+        position: relative;
+        filter: invert(100%); 
+        -webkit-filter: invert(100%);
+        -ms-filter: invert(100%); /* does not work on all versions of Edge :( */
+    }
+    
+     .socialText{
+        color: #716ecc;
+        font-size: 18px;
+        font-weight: bold;
+        margin-left: 35px;
+        bottom: 85px;
+        position: relative;
+    }
+    
+    .numberText {
+        font-size: 34px;
+        margin-left: 112px;
+        bottom: 85px;
+        position: relative;
+    }
+    
+    #fourthRow {
+        overflow: hidden; 
+        margin-top:-25px;
+        height: 650px;
+    }
+    
+    .memberLeft {
+        height: 398px;
+        width: 270px;
+        margin-left: 12px;
+        margin-top: 38px;
+        border: 1px solid #DCDCDC;
+        padding: 8px;
+    }
+    
+    .memberRight {
+        height: 398px;
+        width: 285px;
+        margin-left: 12px;
+        margin-top: 20px;
+        border: 1px solid #DCDCDC;
+        padding: 8px;
+ 
+    }
+    
+   
+    .memberImg {
+        border-radius: 50%;
+    }
+    
+    .leftHR {
+        border-top: 1px solid #DCDCDC;
+    }
+    
+    .rightHR {
+        border-top: 1px solid #DCDCDC;
+        margin-top: -17px;
+    }
+    
+    .leftMemberDate {
+        float: right;
+        margin-top: 15px;
+        font-size: 12px;
+    }
+    
+    .memberName {
+        margin-left: 10px;
+        bottom: 15px;
+        position: relative;
+        font-size: 12px;
+    }
+    
+    .email {
+        margin-left: 50px;
+        color: #716ecc; 
+        bottom: 15px;
+        position: relative;
+        font-size: 12px;
+    }
+    
+    .postTime {
+        margin-left: 150px;
+        bottom: 20px;
+        position: relative;
+        font-size: 12px;
+    }
+    
+     #chevron1,
+    #chevron2,
+    #chevron3
+    {
+        font-size: 28px;
+        color: #716ecc; 
+        float: right;
+        margin-top: -7px;
+    }
+    
+    #chevron4 {
+        font-size: 28px;
+        color: #716ecc; 
+        float: right;
+        margin-top: 27px;
+    }
+    
+     #fifthRow {
+        overflow: hidden; 
+        margin-top: -185px;
+        height: 650px;
+    }
+
+    
+    #bottomSearchInput {
+        position: relative;
+        width:  275px;
+        height: 28px;
+        border-radius: 7px;
+    }
+    
+    #messageTextArea {
+        border-radius: 7px;
+        margin-top: 15px;
+        resize: none;
+        width: 275px;
+        height: 215px;
+    }
+    
+    #sendBtn {
+        border: none;
+        background-color: #716ecc;
+        border-radius: 5px;
+        color: white;
+        padding-left: 12px;
+        padding-right: 12px;
+        width: 285px;
+        font-size: 14px;
+        height: 50px; 
+        margin-top: 5px;
+    }
+    
+    #emailNotification{
+        margin-top: 20px;
+    }
+    
+    #optionTimeZone {
+        width: 275px;
+        height: 40px;
+        border-radius: 5px;
+        margin-top:105px;
+    }
+    
+
+    #saveBtn {
+        background-color: #716ecc;
+        margin-top:0px;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        width: 130px;
+        font-size: 14px;
+        height: 50px;
+        margin-left: 4px;
+    }
+    
+    #cancelBtn {
+        background-color: grey;
+         margin-top:0px;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        width: 130px;
+        font-size: 14px;
+        height: 50px;
+        margin-left: 4px;
+       
+    }
+    
+    /* Firefox and Edge fixes */
+    @-moz-document url-prefix() { 
+        #saveBtn {
+            margin-top: 50px;
+        }
+     }
+    
+    @supports (-ms-ime-align:auto) {
+        #sendBtn { 
+            margin-top: 10px;
+        } 
+    }   
+    
+    .switchOne{
+        position: relative;
+        margin-top: -25px;
+        margin-left: 192px;
+    }
+    
+     /* Firefox and Edge fixes */
+    @-moz-document url-prefix() { 
+        #saveBtn {
+            margin-top: -12px;
+        }
+     }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* ================================= 
   Media Queries
@@ -409,7 +667,7 @@ body {
         height: 650px;
     }
     
-    .memberLeft {
+    .memberLeft, .messageLeft {
         height: 398px;
         width: 285px;
         float: left;
@@ -419,7 +677,7 @@ body {
         padding: 8px;
     }
     
-    .memberRight {
+    .memberRight, .messageRight {
         height: 398px;
         width: 285px;
         margin-left: 435px;
@@ -427,6 +685,8 @@ body {
         border: 1px solid #DCDCDC;
         padding: 8px;
     }
+    
+  
     
    
     .memberImg {
@@ -792,7 +1052,8 @@ body {
         height: 650px;
     }
     
-    .memberLeft {
+    .memberLeft, 
+    .messageLeft {
         height: 322px;
         width: 410px;
         float: left;
@@ -802,7 +1063,8 @@ body {
         padding: 13px;
     }
     
-    .memberRight {
+    .memberRight,
+    .messageRight {
         height: 322px;
         width: 410px;
         margin-left: 562px;
