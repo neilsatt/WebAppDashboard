@@ -198,6 +198,8 @@ body {
         margin-left: 10px;
         margin-top: 20px;
         padding: 13px;
+         height: 205px;
+         width: 300px;
 
     }
     
@@ -217,6 +219,7 @@ body {
 
  #socialStats {  
         margin-left: 12px;
+     margin-top: 288px;
     }
     .socialIcon {
         width: 272px;
@@ -265,7 +268,11 @@ body {
     #fourthRow {
         overflow: hidden; 
         margin-top:-25px;
-        height: 650px;
+    }
+
+    #fifthRow {
+        overflow: hidden; 
+        margin-top:-25px;
     }
     
     .memberLeft {
@@ -279,13 +286,27 @@ body {
     
     .memberRight {
         height: 398px;
-        width: 285px;
+        width: 270px;
         margin-left: 12px;
-        margin-top: 20px;
+        margin-top: 10px;
         border: 1px solid #DCDCDC;
         padding: 8px;
  
     }
+
+ 
+
+    .messageLeft {
+       margin-left: 12px;
+        margin-top:50px;
+    }
+
+    .messageRight {
+      margin-left: 12px;
+      margin-top: 40px;
+    }
+
+   
     
    
     .memberImg {
@@ -343,14 +364,10 @@ body {
         font-size: 28px;
         color: #716ecc; 
         float: right;
-        margin-top: 27px;
+        margin-top: -12px;
     }
     
-     #fifthRow {
-        overflow: hidden; 
-        margin-top: -185px;
-        height: 650px;
-    }
+   
 
     
     #bottomSearchInput {
@@ -389,7 +406,7 @@ body {
         width: 275px;
         height: 40px;
         border-radius: 5px;
-        margin-top:105px;
+        margin-top:2px;
     }
     
 
@@ -616,6 +633,7 @@ body {
       
     #socialStats {  
         margin-left: 125px;
+        margin-top: 15px;
     }
     .socialIcon {
         display: inline-block;
@@ -994,6 +1012,7 @@ body {
     
     #socialStats {  
         margin-left: 125px;
+        margin-top: 36px;
     }
     .socialIcon {
         display: inline-block;
