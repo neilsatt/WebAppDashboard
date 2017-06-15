@@ -535,7 +535,7 @@ body {
 
     #topSearchInput {  
         bottom: 44px;
-        left:   665px;
+        left:   660px;
         width:  340px;
     }
 
@@ -549,13 +549,13 @@ body {
         height: 2.5em;
         margin-top: -25px;
         margin-left: 116px;
-        width: 58em;
+        width: 55em;
     }
 
     #alertMessage p {
         top: 8px;
         left: 15px;
-        width: 58em;
+        width: 55em;
     }
 
     #alertButton {
