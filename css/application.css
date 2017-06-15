@@ -31,7 +31,7 @@ body {
     float: left;
     color: white;
     margin-top: 30px;
-    margin-left: -10px;
+    margin-left: -27px;
     position: relative; /* keeps circle from moving when resizing */
 }
 
@@ -75,13 +75,14 @@ body {
 #leftSubHeader {
         margin-left: 84px;
         font-size: 22px;
-        margin-top: 25px;
+        margin-top: -266px;
 }
 
 .left-column {
-        position:fixed; /* prevent scrolling */
+        display: inline-block;
+     
         width:60px;
-        height:800px;
+        height:305px;
         background: #44427a; 
         top: 80px; 
         bottom: 0px;
@@ -105,11 +106,11 @@ body {
 }  
 
 #alertMessage {
-    height: 7.5em;
+    height: 8.5em;
     background-color: #716ecc; 
     top: 55px;
     margin-left: 65px;
-    width: 15em;
+    width: 14em;
     border-radius: 10px;
 }
 
@@ -118,7 +119,7 @@ body {
     color: white;
     top: 8px;
     left: 15px;
-     width: 14em;
+     width: 13em;  
 }
 
 #alertButton {
@@ -127,7 +128,7 @@ body {
     background-color: #716ecc;
     border: none;
     right: 4px;
-    top: 82px;
+    top: 98px;
 }
 
 .bold {
@@ -149,7 +150,45 @@ body {
     margin-right: 10px;
 }
 
+.headerBtn {  
+        border: none;
+        background-color: aliceblue;
+}
+#activeBtn{
+        border: none;
+        background-color: limegreen;
+        border-radius: 30px;
+        color: white;
+        padding-left: 12px;
+        padding-right: 12px;
+}
 
+#chartOne {
+    height: 200px;
+    width: 300px;
+}
+
+  #chartOneHeaderLeft {
+        float: left;
+        margin-left: 10px;
+      margin-top: 62px;
+}
+
+ #chartOneHeaderRight {
+        float: left; /* changed for mobile */
+        margin-right: 22px;
+     margin-top: -8px;
+}
+
+#chartTwo {
+        height: 205px;
+        width: 280px;
+        float: left;
+        margin-left: 6px;
+        margin-top: 34px;
+        border: 1px solid #DCDCDC;
+        padding: 4px;
+}
 
 /* ================================= 
   Media Queries
@@ -250,6 +289,7 @@ body {
     #chartOne {
         margin-left: 93px;
         margin-top: 5px;
+        
     }
     
     #chartTwo {
