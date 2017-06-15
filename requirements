@@ -1,6 +1,3 @@
-
-FIX APPNAME TO MATCH MOCK
-
 Create a responsive web page from the supplied dashboard.png mockup with the following - DONE
     Header with app name, notification icon badge and profile avatar and name.
     SVG icon based navigation with the following links: Dashboard, Members, Visits, and Settings. NOTE: You only have to build out the main dashboard page, not any of the other pages.
@@ -70,12 +67,17 @@ FINAL CHECKLIST
     
 Check in Multiple Browsers 
     Check after all 3 sizes (1024, 768, 320) - 
-    Chrome
+    1024 - Chrome, 
+    768 -  Chrome, 
+    320 -  Chrome, 
+    
+    
     Firefox 
     Edge
     
 Validate HTML and CSS:
-    Check after all 3 sizes done
+    HTML - DONE
+    CSS - Errors for browser hack styles and ends of media query curly brace
     
 
     

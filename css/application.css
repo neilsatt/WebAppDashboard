@@ -1,9 +1,3 @@
-/*
-* {
-  box-sizing: border-box; 
-}
-*/
-
 /* 320px and global styles for all sizes */
 
 body {
@@ -24,7 +18,7 @@ body {
 .main-header {
       height: 5em; 
       background-color: #716ecc; 
-      width: 27em;
+      width: 20em;
      }
 
 .main-nav {
@@ -35,8 +29,6 @@ body {
     position: relative; /* keeps circle from moving when resizing */
 }
 
-
-
 .main-nav li {
         display: inline-block;
 }
@@ -46,7 +38,6 @@ body {
         font-size: 22px;
         margin-top: -266px;
 }
-
 
 /*  Decided to remove for mobile
     #topSearchBG {
@@ -66,7 +57,6 @@ body {
     border-radius: 7px;
     bottom: 0px;
     left:   68px;
-
 }
 
 #searchIcon {
@@ -104,7 +94,6 @@ body {
     top: 98px;
 }
 
-
 .left-column {
         display: inline-block;
      
@@ -133,7 +122,6 @@ body {
 }  
 
 
-
 .bold {
     font-weight: bold;
 }
@@ -153,14 +141,12 @@ body {
     margin-right: 10px;
 }
 
-
-
 #chartOne {
     height: 200px;
     width: 300px;
 }
 
-  #chartOneHeaderLeft {
+#chartOneHeaderLeft {
         margin-left: 6px;
       margin-top: 62px;
 }
@@ -189,7 +175,7 @@ body {
         width: 280px;
         float: left;
         margin-left: 6px;
-        margin-top: 34px;
+        margin-top: -64px;
         padding: 4px;
 }
 
@@ -199,28 +185,25 @@ body {
         padding: 13px;
          height: 205px;
          width: 300px;
-
-    }
+}
     
 .chart-legend {
         margin-left: 45px;
         margin-top: -10px;
-    }
+}
     
 .chart-legend li span{
      display: inline-block;
      width: 12px;
      height: 12px;
      margin-right: 5px;
-   }
-
-
+}
 
  #socialStats {  
         margin-left: 12px;
-     margin-top: 288px;
-    }
-    .socialIcon {
+      margin-top: 222px;
+}
+.socialIcon {
         width: 272px;
         height: 115px;
         border: 1px solid #DCDCDC;
@@ -230,7 +213,7 @@ body {
         margin-top: 3px;
     }
     
-    .iconCircle {
+.iconCircle {
         background: #716ecc;
         width: 70px;
         height: 70px;
@@ -239,42 +222,42 @@ body {
         margin-left: 25px;
     } 
     
-    .icon {
+.icon {
         top: -50px;
         margin-left: 40px;
         position: relative;
         filter: invert(100%); 
         -webkit-filter: invert(100%);
         -ms-filter: invert(100%); /* does not work on all versions of Edge :( */
-    }
+}
     
-     .socialText{
+.socialText{
         color: #716ecc;
         font-size: 18px;
         font-weight: bold;
         margin-left: 35px;
         bottom: 85px;
         position: relative;
-    }
+}
     
-    .numberText {
+.numberText {
         font-size: 34px;
         margin-left: 112px;
         bottom: 85px;
         position: relative;
-    }
+}
     
-    #fourthRow {
+#fourthRow {
         overflow: hidden; 
         margin-top:-25px;
-    }
+}
 
-    #fifthRow {
+#fifthRow {
         overflow: hidden; 
         margin-top:-25px;
-    }
+}
     
-    .memberLeft {
+.memberLeft {
         height: 398px;
         width: 270px;
         margin-left: 12px;
@@ -283,114 +266,105 @@ body {
         padding: 8px;
     }
     
-    .memberRight {
+.memberRight {
         height: 398px;
         width: 270px;
         margin-left: 12px;
         margin-top: 10px;
         border: 1px solid #DCDCDC;
         padding: 8px;
- 
-    }
-
- 
-
-    .messageLeft {
+}
+.messageLeft {
        margin-left: 12px;
         margin-top:50px;
         border: 1px solid #DCDCDC;
         width: 282px;
         padding: 2px;
-    }
-
-    .messageRight {
+}
+.messageRight {
       margin-left: 12px;
       margin-top: 40px;
         border: 1px solid #DCDCDC;
         width: 282px;
         padding: 2px;
-    }
+}
 
    
     
-   
-    .memberImg {
+.memberImg {
         border-radius: 50%;
-    }
+ }
     
-    .leftHR {
+.leftHR {
         border-top: 1px solid #DCDCDC;
-    }
+}
     
-    .rightHR {
+.rightHR {
         border-top: 1px solid #DCDCDC;
         margin-top: -17px;
-    }
+}
     
-    .leftMemberDate {
+.leftMemberDate {
         float: right;
         margin-top: 15px;
         font-size: 12px;
-    }
+}
     
-    .memberName {
+.memberName {
         margin-left: 10px;
         bottom: 15px;
         position: relative;
         font-size: 12px;
-    }
+}
     
-    .email {
+.email {
         margin-left: 50px;
         color: #716ecc; 
         bottom: 15px;
         position: relative;
         font-size: 12px;
-    }
+}
     
-    .postTime {
+.postTime {
         margin-left: 150px;
         bottom: 20px;
         position: relative;
         font-size: 12px;
-    }
+}
     
-     #chevron1,
-    #chevron2,
-    #chevron3
-    {
+#chevron1,
+#chevron2,
+#chevron3
+{
         font-size: 28px;
         color: #716ecc; 
         float: right;
         margin-top: -7px;
-    }
+}
     
-    #chevron4 {
+#chevron4 {
         font-size: 28px;
         color: #716ecc; 
         float: right;
         margin-top: -12px;
-    }
+}
     
-   
-
-    
-    #bottomSearchInput {
+#bottomSearchInput {
         position: relative;
         width:  275px;
         height: 28px;
         border-radius: 7px;
-    }
+}
     
-    #messageTextArea {
+#messageTextArea {
         border-radius: 7px;
         margin-top: 15px;
         resize: none;
         width: 275px;
         height: 215px;
-    }
+}
     
-    #sendBtn {
+#sendBtn {
         border: none;
         background-color: #716ecc;
         border-radius: 5px;
@@ -401,21 +375,21 @@ body {
         font-size: 14px;
         height: 50px; 
         margin-top: 5px;
-    }
+}
     
-    #emailNotification{
+#emailNotification{
         margin-top: 20px;
-    }
+}
     
-    #optionTimeZone {
+#optionTimeZone {
         width: 275px;
         height: 40px;
         border-radius: 5px;
         margin-top:2px;
-    }
+}
     
 
-    #saveBtn {
+#saveBtn {
         background-color: #716ecc;
         margin-top:0px;
         border: none;
@@ -425,9 +399,9 @@ body {
         font-size: 14px;
         height: 50px;
         margin-left: 4px;
-    }
+}
     
-    #cancelBtn {
+#cancelBtn {
         background-color: grey;
          margin-top:0px;
         border: none;
@@ -438,9 +412,9 @@ body {
         height: 50px;
         margin-left: 4px;
        
-    }
+}
     
-    /* Firefox and Edge fixes */
+/* Firefox and Edge fixes */
     @-moz-document url-prefix() { 
         #saveBtn {
             margin-top: 50px;
@@ -453,11 +427,11 @@ body {
         } 
     }   
     
-    .switchOne{
+.switchOne{
         position: relative;
         margin-top: -25px;
         margin-left: 192px;
-    }
+}
     
      /* Firefox and Edge fixes */
     @-moz-document url-prefix() { 
@@ -466,26 +440,6 @@ body {
         }
      }
     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* ================================= 
@@ -554,7 +508,7 @@ body {
         width:100px;
         position: absolute;
         overflow: auto;
-        height: 2022px; 
+        height: 2026px; 
     }
   
    .left-column li {
@@ -813,7 +767,6 @@ body {
         width: 275px;
         height: 40px;
         border-radius: 5px;
-        margin-top:105px;
     }
     
 
@@ -865,6 +818,25 @@ body {
     @-moz-document url-prefix() { 
         #saveBtn {
             margin-top: -12px;
+        }
+     }
+    
+  
+    @-moz-document url-prefix() { 
+        #topSearchInput {
+           left: 256px;
+        }
+     }
+    
+     @-moz-document url-prefix() { 
+        #optionTimeZone {
+           margin-top:95px;
+        }
+     }
+    
+    @-moz-document url-prefix() { 
+        #searchIcon {
+           left: 212px;
         }
      }
     
@@ -934,7 +906,7 @@ body {
        position: absolute;
         overflow: auto;
         margin-top: 16px; 
-        height: 1946px; 
+        height: 1974px; 
     }
 
     .left-column li {
@@ -1194,8 +1166,6 @@ body {
         margin-top: 32px;
     }
     
- 
- 
     #saveBtn {
         background-color: #716ecc;
         margin-top: 0px;
@@ -1222,7 +1192,7 @@ body {
     /* Firefox and Edge fixes */
     @-moz-document url-prefix() { 
         #saveBtn {
-            margin-top: 50px;
+            margin-top: 0px;
         }
      }
     
@@ -1239,21 +1209,5 @@ body {
     }
     
     
-    } /* end of 1024 */
+} /* end of 1024 */
     
-  
-    
-    
-
-    
-   
-    
-    
-
-    
-    
-    
-
-
-
-
