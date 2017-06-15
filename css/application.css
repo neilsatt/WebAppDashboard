@@ -161,7 +161,6 @@ body {
 }
 
   #chartOneHeaderLeft {
-        float: left;
         margin-left: 6px;
       margin-top: 62px;
 }
@@ -299,11 +298,17 @@ body {
     .messageLeft {
        margin-left: 12px;
         margin-top:50px;
+        border: 1px solid #DCDCDC;
+        width: 282px;
+        padding: 2px;
     }
 
     .messageRight {
       margin-left: 12px;
       margin-top: 40px;
+        border: 1px solid #DCDCDC;
+        width: 282px;
+        padding: 2px;
     }
 
    
