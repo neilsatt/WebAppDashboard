@@ -391,7 +391,7 @@ body {
 
 #saveBtn {
         background-color: #716ecc;
-        margin-top:0px;
+        margin-top:2px;
         border: none;
         border-radius: 5px;
         color: white;
@@ -413,11 +413,17 @@ body {
         margin-left: 4px;
        
 }
+
+.switchOne{
+        position: relative;
+        margin-top: -25px;
+        margin-left: 192px;
+}
     
 /* Firefox and Edge fixes */
     @-moz-document url-prefix() { 
         #saveBtn {
-            margin-top: 50px;
+            margin-top: 12px;
         }
      }
     
@@ -426,19 +432,6 @@ body {
             margin-top: 10px;
         } 
     }   
-    
-.switchOne{
-        position: relative;
-        margin-top: -25px;
-        margin-left: 192px;
-}
-    
-     /* Firefox and Edge fixes */
-    @-moz-document url-prefix() { 
-        #saveBtn {
-            margin-top: -12px;
-        }
-     }
     
 
 
@@ -772,7 +765,7 @@ body {
 
     #saveBtn {
         background-color: #716ecc;
-        margin-top:0px;
+        margin-top:102px;
         border: none;
         border-radius: 5px;
         color: white;
@@ -839,6 +832,25 @@ body {
            left: 212px;
         }
      }
+    
+    @supports (-ms-ime-align:auto) {
+        #topSearchInput { 
+             left: 270px;
+        } 
+    }
+    
+    @supports (-ms-ime-align:auto) {
+        #searchIcon { 
+             left: 220px;
+        } 
+    }
+    
+     @supports (-ms-ime-align:auto) {
+        #saveBtn { 
+             margin-top: 95px;
+        } 
+    }
+    
     
 
     

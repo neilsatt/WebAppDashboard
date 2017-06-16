@@ -67,17 +67,16 @@ FINAL CHECKLIST
     
 Check in Multiple Browsers 
     Check after all 3 sizes (1024, 768, 320) - 
-    1024 - Chrome, 
-    768 -  Chrome, 
-    320 -  Chrome, 
+    1024 - Chrome, Firefox,  
+    768 -  Chrome, Firefox, 
+    320 -  Chrome, Firefox, 
     
     
-    Firefox 
     Edge
     
 Validate HTML and CSS:
     HTML - DONE
-    CSS - Errors for browser hack styles and ends of media query curly brace
+    CSS - Errors for browser hack styles and ends of media query curly braces for some reason
     
 
     
