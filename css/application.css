@@ -144,6 +144,7 @@ body {
 #chartOne {
     height: 200px;
     width: 300px;
+    margin-left: 10px;
 }
 
 #chartOneHeaderLeft {
@@ -176,15 +177,17 @@ body {
         float: left;
         margin-left: 6px;
         margin-top: -64px;
-        padding: 4px;
+        padding: 4px; 
+   
 }
 
  #chartThree {
         margin-left: 10px;
         margin-top: 20px;
-        padding: 13px;
+        padding: 0px;
          height: 205px;
-         width: 300px;
+         width: 300px; 
+      
 }
     
 .chart-legend {
@@ -564,12 +567,13 @@ body {
         margin-left: 366px;
         margin-top: 20px;
         border: 1px solid #DCDCDC;
-         height: 205px;
-        width: 310px;
+        height: 223px;
+        width: 337px;
+         padding: 4px;
     }
   
     .chart-legend {
-        margin-left: 235px;
+        margin-left: 254px;
         margin-top: -116px;
         float: left;
         position: absolute; /* work around get legend aligned */

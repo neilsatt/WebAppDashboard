@@ -78,6 +78,16 @@ Validate HTML and CSS:
     HTML - DONE
     CSS - Errors for browser hack styles and ends of media query curly braces for some reason
     
+    
+UPDATES AFTER FIRST PEER REVIEW
+Update and rearrage jQuery and ChartJS links - DONE
+Fix Donut Chart Issues - DONE
+Whitespace Issue - ?? Ask Slack Channel
+
+Right now, it seems like you have some unneeded white space down the right side of the screen at different screen sizes. Try using percentages for your widths instead of relative units, 
+and then you can use max-width to control the ultimate size and set the margin left and right to auto to get everything centered on the screen.
+
+    
 
     
     
