@@ -1,0 +1,24 @@
+Question for Project. 
+
+
+Hello all, my Unit 9 project was returned to me with 3 suggestions from the reviewer. I'm not sure if I understand the 3rd suggestion, so I was hoping to get some feedback here. 
+
+The suggestion was:
+
+"Right now, it seems like you have some unneeded white space down the right side of the screen at different screen sizes. Try using percentages for your widths instead of relative units, 
+and then you can use max-width to control the ultimate size and set the margin left and right to auto to get everything centered on the screen."
+
+I am using a Chrome Extension that allows me to resize the window to widths 320, 768, and 1024. My app fits perfectly at these sizes, but if I resize the browser past those sizes, there is space on the right since everything is left aligned. 
+
+It sounds like the reviewer wants me to center everything, but that doesn't seem to match up with the mock. The mock has some white space on the right side also and it's not centered. 
+
+Maybe I need to make the main area have a white background and then light blue outside the main app, or maybe make the header as wide as the main content?
+
+For reference, below is an image of my 768 version after resizing the browser to the right a bit so it's close to 850px wide.
+
+And here is a link to my repo:
+
+https://github.com/neilsatt/WebAppDashboard
+
+Thanks for any suggestions!
+  

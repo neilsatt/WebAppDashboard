@@ -7,6 +7,11 @@ body {
   background-color: aliceblue;
 }
 
+#main-container {
+    width: 320px;
+    margin: 0 auto; 
+}
+
 .appName {
     float: left;
     margin-left: 15px; 
@@ -18,7 +23,7 @@ body {
 .main-header {
       height: 5em; 
       background-color: #716ecc; 
-      width: 20em;
+      width: 19em;
      }
 
 .main-nav {
@@ -443,9 +448,14 @@ body {
 ==================================== */
 /* 768 px or wider */
 @media (min-width: 768px) {
+    
+    #main-container {
+        width: 768px;
+        margin: 0 auto; 
+    }
 
     .main-header {
-      width: 47em;
+      width: 46em;
      }
     
     .main-nav {
@@ -459,7 +469,7 @@ body {
     }
     
     #topSearchBG {
-        width: 33em;
+        width: 32em;
         height: 4em;
         margin-left: 223px;
         margin-top: 231px;
@@ -474,7 +484,7 @@ body {
     #topSearchInput {
       bottom: 50px;
       left:   400px;
-      width:  340px;
+      width:  323px;
         margin-top: 296px;
     }
     
@@ -864,10 +874,15 @@ body {
 
 /* 1024 px or wider */
 @media (min-width: 1024px) {
+    
+    #main-container {
+        width: 1024px;
+        margin: 0 auto; 
+    }
 
      .main-header {
       height: 6em; 
-      width: 65em;
+      width: 63em;
     }
 
     .main-nav {
@@ -883,7 +898,7 @@ body {
     }
 
     #topSearchBG {
-        width: 45em;
+        width: 43em;
         margin-left: 318px;
         margin-top: -59px;
     }

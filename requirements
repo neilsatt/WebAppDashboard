@@ -67,25 +67,30 @@ FINAL CHECKLIST
     
 Check in Multiple Browsers 
     Check after all 3 sizes (1024, 768, 320) - 
-    1024 - Chrome, Firefox,  
-    768 -  Chrome, Firefox, 
-    320 -  Chrome, Firefox, 
+    1024 - Chrome, Firefox, Edge
+    768 -  Chrome, Firefox, Edge
+    320 -  Chrome, Firefox, Edge
     
     
-    Edge
+    
     
 Validate HTML and CSS:
     HTML - DONE
-    CSS - Errors for browser hack styles and ends of media query curly braces for some reason
+    CSS - DONE (Errors for browser hack styles)
     
     
 UPDATES AFTER FIRST PEER REVIEW
 Update and rearrage jQuery and ChartJS links - DONE
 Fix Donut Chart Issues - DONE
-Whitespace Issue - ?? Ask Slack Channel
+Whitespace Issue (Ask Slack Channel) - DONE 
 
-Right now, it seems like you have some unneeded white space down the right side of the screen at different screen sizes. Try using percentages for your widths instead of relative units, 
-and then you can use max-width to control the ultimate size and set the margin left and right to auto to get everything centered on the screen.
+Suggestions from Slack/N Hampton-
+
+It looks like you've set the width of your main  container to a set pixel width. You can either:
+A. Keep that set pixel width and set the right and left margins to auto to center that container
+B. Set the width of the container to a percentage, so it always takes up 100% of the screen or 
+C. Some combination of the two
+
 
     
 
